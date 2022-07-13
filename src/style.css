@@ -1,0 +1,20 @@
+/*=== CONFIGURAÇÕES GLOBAIS ==================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url('../src/imagens/background-saturn.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center, center;
+    background-size: cover;
+    position: absolute;
+
+  }

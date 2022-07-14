@@ -9,12 +9,100 @@
     vertical-align: baseline;
     box-sizing: border-box;
   }
+
+  /*=== FONTES==================================================*/
+  @font-face {
+    font-family: 'ssf4';
+  
+    src: url('../src/fontes/rusty_fever.zip');
+  }
+
+  /*=== FONTES==================================================*/
   body{
     background-image: url('../src/imagens/background-saturn.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center, center;
     background-size: cover;
-    position: absolute;
+    opacity: 2;
 
   }
+
+  h2 {
+    font-size: 5rem;
+    text-align: center;
+    animation: flicker 1.5s infinite alternate;  
+
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'ssf4', Courier, monospace;
+  }
+
+  .TextoNeon {
+    color: #fff;
+    text-shadow:
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #0fa,
+    0 0 80px #0fa,
+    0 0 90px #0fa,
+    0 0 100px #0fa,
+    0 0 150px #0fa;
+  }
+
+  .container {
+    margin-top: 20vh;
+  }
+
+  @keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #textoPrincipal {
+
+    color: #fff;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.153);
+
+    margin-top: 10vh;
+
+  }
+
+  main section div p {
+
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 2.0em;
+
+    margin: 5px 40px
+    
+
+  }
+.text3 {
+
+  margin-top: 10vh;
+
+}

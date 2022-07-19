@@ -42,11 +42,16 @@ ul {
 
 :root {
   --cor-vermelha-principal: #D60223;
+  --cor-vermelha-media: #f89284;
+  --cor-vermelha-fraca: #ffbebe;
 
   --cor-marrom-fraco: #ebd5d2;
 
   --cor-azul-principal: #f70202;
   --cor-azul-media: #c7e00e;
+  --cor-azul-fraca: #8fbff8;
+
+  --cor-roxa-fraca: #c2c2f1;
 
   --cor-titulo-forte: #f77a2c;
   --cor-titulo-fraco: #faefd8;
